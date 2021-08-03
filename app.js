@@ -48,6 +48,7 @@ function runHighlight(rand) {
       allTags[rand[curr - 1]].classList.add('highlight');
       setTimeout(() => {
         allTags[rand[curr - 1]].style.backgroundColor = 'green';
+        curr = 0;
       }, 500);
     }
   }, 400);
